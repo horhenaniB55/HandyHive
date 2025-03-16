@@ -1,0 +1,18 @@
+# .gcloudignore
+.git
+.gitignore
+node_modules/
+.env
+.env.*
+!.env.example
+env.yaml
+README.md
+.vscode/
+.idea/
+
+# Keep Docker and nginx files
+!Dockerfile
+!nginx.conf
+
+# Include the dist directory (will be built inside the container)
+!dist/ 
